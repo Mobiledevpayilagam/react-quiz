@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.answerBox {
+  width: 300px;
+  height: 40px;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.answerBox:hover{
+  cursor: pointer;
+}
+
+.answerContainer {
+  width: 800px;
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+}
